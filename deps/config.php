@@ -1,5 +1,6 @@
 <?php
 include_once ("simple-mysqli.php");
+include_once ("reverse_proxy.php");
 
 $db_obj = new \SimpleMySQLi("localhost", "root", "", "anti_ddos");
 //https://github.com/WebsiteBeaver/Simple-MySQLi
